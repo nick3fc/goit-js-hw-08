@@ -86,11 +86,6 @@ const newGalleryItems = images
 
 galleryList.insertAdjacentHTML('beforeend', newGalleryItems);
 
-// const imageLink = document.querySelector('.gallery-link');
-// imageLink.addEventListener('click', event => {
-//   event.preventDefault();
-// });
-
 const galleryClick = document.querySelector('.gallery');
 
 // galleryClick.addEventListener('mouseover', event => {
