@@ -37,7 +37,7 @@ ul {
 
 .gallery img:hover {
   cursor:
-    url('/img/customPointer.svg') 13 13,
+    url('./img/customPointer.svg') 13 13,
     pointer;
 }
 
