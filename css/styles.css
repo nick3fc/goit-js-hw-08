@@ -12,6 +12,10 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -21,14 +25,40 @@ ul {
 }
 
 .gallery {
+  width: 1128px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 24px;
 
   /* flex-basis: auto; */
 }
+
+.gallery img:hover {
+  cursor:
+    url('/img/customPointer.svg') 13 13,
+    pointer;
+}
+
+.gallery-item {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+}
 .gallery-image {
   width: 360px;
   height: 200px;
   object-fit: cover;
+}
+
+.gallery-link {
+  display: inline-block;
+  height: 0;
+  /* object-fit: cover; */
+}
+.gallery-image-preview {
+  width: 1112px !important;
+  height: 640px !important;
+  /* object-fit: cover; */
 }
